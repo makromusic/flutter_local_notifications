@@ -8,7 +8,9 @@ homepage: https://github.com/MaikuB/flutter_local_notifications/tree/master/flut
 dependencies:
   flutter:
     sdk: flutter
-  flutter_local_notifications_platform_interface: ^3.0.0-nullsafety.4
+  flutter_local_notifications_platform_interface: 
+    git: 
+      url: https://github.com/makromusic/flutter_local_notifications/tree/master/flutter_local_notifications_platform_interface.git
   platform: ^3.0.0
   timezone: ^0.7.0-nullsafety.0
 
