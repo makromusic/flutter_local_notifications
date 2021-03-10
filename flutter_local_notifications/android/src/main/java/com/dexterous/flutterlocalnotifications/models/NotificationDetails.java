@@ -124,6 +124,7 @@ public class NotificationDetails {
     public String title;
     public String body;
     public String icon;
+    public String key;
     public String channelId = "Default_Channel_Id";
     public String channelName;
     public String channelDescription;
@@ -190,6 +191,7 @@ public class NotificationDetails {
         notificationDetails.id = (Integer) arguments.get(ID);
         notificationDetails.title = (String) arguments.get(TITLE);
         notificationDetails.body = (String) arguments.get(BODY);
+        notificationDetails.key = (String) arguments.get(KEY);
         notificationDetails.scheduledDateTime = (String) arguments.get(SCHEDULED_DATE_TIME);
         notificationDetails.timeZoneName = (String) arguments.get(TIME_ZONE_NAME);
         if(arguments.containsKey(SCHEDULED_NOTIFICATION_REPEAT_FREQUENCY)) {
