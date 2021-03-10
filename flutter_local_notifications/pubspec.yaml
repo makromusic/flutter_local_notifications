@@ -10,7 +10,8 @@ dependencies:
     sdk: flutter
   flutter_local_notifications_platform_interface: 
     git: 
-      url: https://github.com/makromusic/flutter_local_notifications/tree/master/flutter_local_notifications_platform_interface.git
+      url: https://github.com/makromusic/flutter_local_notifications.git
+      path: flutter_local_notifications_platform_interface
   platform: ^3.0.0
   timezone: ^0.7.0-nullsafety.0
 
