@@ -85,7 +85,7 @@ import io.flutter.view.FlutterMain;
  * FlutterLocalNotificationsPlugin
  */
 @Keep
-public class FlutterLocalNotificationsPlugin extends AppCompatActivity
+public class FlutterLocalNotificationsPlugin
         implements MethodCallHandler, PluginRegistry.NewIntentListener, FlutterPlugin, ActivityAware {
     private static final String SHARED_PREFERENCES_KEY = "notification_plugin_cache";
     private static final String DRAWABLE = "drawable";
