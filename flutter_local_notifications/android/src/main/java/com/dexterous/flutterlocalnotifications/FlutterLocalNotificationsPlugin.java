@@ -23,7 +23,6 @@ import android.service.notification.StatusBarNotification;
 import android.text.Html;
 import android.text.Spanned;
 import android.widget.RemoteViews;
-import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
