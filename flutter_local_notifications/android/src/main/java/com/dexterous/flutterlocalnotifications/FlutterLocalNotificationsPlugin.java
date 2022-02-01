@@ -170,9 +170,9 @@ public class FlutterLocalNotificationsPlugin extends AppCompatActivity
                 PendingIntent.FLAG_UPDATE_CURRENT);
         DefaultStyleInformation defaultStyleInformation = (DefaultStyleInformation) notificationDetails.styleInformation;
 
-        RemoteViews collapsedView = new RemoteViews(context.getPackageName(),
+        RemoteViews collapsedView = new RemoteViews(getPackageName(),
                 R.layout.notification_collapsed);
-        RemoteViews expandedView = new RemoteViews(context.getPackageName(),
+        RemoteViews expandedView = new RemoteViews(getPackageName(),
                 R.layout.notification_expanded);
 
         collapsedView.setTextViewText(R.id.text_view_collapsed_1, notificationDetails.title);
